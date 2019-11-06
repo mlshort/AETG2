@@ -50,7 +50,7 @@ public:
     typedef LEVEL_VECTOR::size_type       size_type;       ///< exposes associated type definition
 
     /// Default Constructor
-    CTestCase()
+    CTestCase() noexcept
         : m_rgData()
     { };
     /// Copy Constructor
@@ -77,7 +77,7 @@ public:
   @param [in] nSize          number of levels to be stored in stored in the 
                              CTestCase object
 */
-    inline void Init(size_t nSize) noexcept
+    inline void Init(size_t nSize)
     {
         // m_rgData.resize(nSize, LEVEL_INVALID);
          m_rgData.assign(nSize, LEVEL_INVALID);
@@ -143,7 +143,7 @@ public:
 
   @retval TCHAR*             address of the destination buffer
 */
-    TCHAR*         ToString(TCHAR* szDest, size_t cchLen) const;
+    TCHAR*         ToString(TCHAR* szDest, size_t cchLen) const noexcept;
 
 ////////////////////////////////////////////////////////////////////
 /// overloaded stream extraction operator

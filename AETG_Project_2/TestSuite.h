@@ -68,7 +68,7 @@ public:
     typedef std::list<CTestCase>::const_iterator const_iterator; ///< exposes the underlying typedef
 
     /// Default Constructor
-    CTestSuite( )
+    CTestSuite( ) noexcept
         : m_nNumFactors(0),
           m_nMaxSystemLevel(LEVEL_INVALID),
           m_rgLevelCount(),

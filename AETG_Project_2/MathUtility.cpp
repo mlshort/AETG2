@@ -17,7 +17,7 @@
 
 #include "MathUtility.h"
 
-size_t N_Choose_T(unsigned short nN /* Factor */, unsigned short nT /* T */)
+size_t N_Choose_T(unsigned short nN /* Factor */, unsigned short nT /* T */) noexcept
 {
     size_t nResult = 0;
 
@@ -35,7 +35,7 @@ size_t N_Choose_T(unsigned short nN /* Factor */, unsigned short nT /* T */)
     return nResult;
 }
 
-bool NextCombination(unsigned short* rgSubset, size_t nSubset_size, size_t nSet_size) 
+bool NextCombination(unsigned short* rgSubset, size_t nSubset_size, size_t nSet_size) noexcept
 { 
     for (int i = nSubset_size; --i >= 0;) 
     {
@@ -49,7 +49,7 @@ bool NextCombination(unsigned short* rgSubset, size_t nSubset_size, size_t nSet_
     return false;
 }
 
-bool NextCombination(BYTE* rgSubset, size_t nSubset_size, size_t nSet_size) 
+bool NextCombination(BYTE* rgSubset, size_t nSubset_size, size_t nSet_size) noexcept
 { 
     for (int i = nSubset_size; --i >= 0;) 
     {

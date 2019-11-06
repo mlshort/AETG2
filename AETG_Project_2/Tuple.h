@@ -39,7 +39,7 @@ typedef std::tuple<LEVEL_T, LEVEL_T, LEVEL_T>  T3_TUPLE; ///< 3-way tuple type
 struct T2_TUPLE_HASH
 {
     /// the underlying hash algorithm implementation
-    std::size_t operator() (const T2_TUPLE& tpl) const
+    std::size_t operator() (const T2_TUPLE& tpl) const noexcept
     { return static_cast<std::size_t>( (std::get<0>(tpl) << LEVEL_BITS) | 
                                         std::get<1>(tpl) ); };
 };
@@ -54,7 +54,7 @@ struct T2_TUPLE_HASH
 struct T3_TUPLE_HASH
 {
     /// the underlying hash algorithm implementation
-    std::size_t operator() (const T3_TUPLE& tpl) const
+    std::size_t operator() (const T3_TUPLE& tpl) const noexcept
     {   auto tpl0 = std::get<0>(tpl);
         auto tpl1 = std::get<1>(tpl);
         auto tpl2 = std::get<2>(tpl);

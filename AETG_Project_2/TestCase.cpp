@@ -32,13 +32,16 @@ CTestCase::GetNumValidFactors(void) const noexcept
 }
 
 TCHAR*
-CTestCase::ToString(TCHAR* szDest, size_t cchLen) const
+CTestCase::ToString(TCHAR* szDest, size_t cchLen) const noexcept
 {
     size_t nLen = 0;
 
-    for (auto& it : m_rgData)
+    if (szDest)
     {
-        nLen += _sntprintf(&szDest[nLen], cchLen - nLen, _T("%d "), it);
+        for (auto& it : m_rgData)
+        {
+            nLen += _sntprintf(&szDest[nLen], cchLen - nLen, _T("%u "), it);
+        }
     }
 
     return szDest;

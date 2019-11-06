@@ -91,13 +91,14 @@ CComponentSystem::GetMaxSystemLevel(void) const noexcept
 };
 
 LEVEL_T  
-CComponentSystem::GetRandomLevel(FACTOR_T nFactor) const noexcept
+CComponentSystem::GetRandomLevel(FACTOR_T nFactor) const
 {
     LEVEL_T nResult = LEVEL_INVALID;
 
     if (nFactor < m_nNumFactors)
     {
-        if (std::_Is_UIntType<LEVEL_T>::value)
+//        if (std::_Is_UIntType<LEVEL_T>::value)
+        if (std::is_integral<LEVEL_T>::value && std::is_unsigned<LEVEL_T>::value)
         {
             std::uniform_int_distribution<LEVEL_T>      dist(m_rgFactors[nFactor].get_MinLevel(),
                                                              m_rgFactors[nFactor].get_MaxLevel());
@@ -115,13 +116,14 @@ CComponentSystem::GetRandomLevel(FACTOR_T nFactor) const noexcept
 }
 
 FACTOR_T 
-CComponentSystem::GetRandomFactor(void) const noexcept
+CComponentSystem::GetRandomFactor(void) const
 {
     FACTOR_T nResult = FACTOR_INVALID;
 
     if (m_nNumFactors > 1)
     {
-        if (std::_Is_UIntType<LEVEL_T>::value)
+//        if (std::_Is_UIntType<LEVEL_T>::value)
+        if (std::is_integral<LEVEL_T>::value && std::is_unsigned<LEVEL_T>::value)
         {
             std::uniform_int_distribution<LEVEL_T>          dist(0, m_nNumFactors - 1);
             nResult = dist(g_mt);

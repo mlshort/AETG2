@@ -72,7 +72,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <CodeAnalysisRuleSet>..\..\..\Users\Mark L. Short\NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>..\..\..\..\MyNativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <OutDir>$(SolutionDir)Bin\</OutDir>
     <IntDir>$(SolutionDir)Obj\$(ProjectName)_$(Platform)_$(Configuration)\</IntDir>
     <TargetName>$(ProjectName)D</TargetName>

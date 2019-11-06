@@ -39,7 +39,7 @@ struct N_Choose_R
     size_t rgData[_Sz][_Sz];
 
 public:
-    N_Choose_R()
+    N_Choose_R() noexcept
     { memset(rgData, 0, sizeof(rgData)); };
 
     inline size_t operator()(const size_t N, const size_t R)
@@ -64,7 +64,7 @@ public:
     C(n,t) = C(n-1,t) + C(n-1,t-1)
     C(n,t) = (n-t+1)C(n,t-1) / t
 */
-size_t N_Choose_T(unsigned short nN /* Factor */, unsigned short nT /* T */);
+size_t N_Choose_T(unsigned short nN /* Factor */, unsigned short nT /* T */) noexcept;
 
 /**
   @brief Generates a sequence of numbers using a combinatorical operation
@@ -81,8 +81,8 @@ size_t N_Choose_T(unsigned short nN /* Factor */, unsigned short nT /* T */);
   @retval true               if there are more combinations
   @retval false              if there are no more combinations
 */
-bool NextCombination(unsigned short* rgSubset, size_t nSubset_size, size_t nSet_size);
+bool NextCombination(unsigned short* rgSubset, size_t nSubset_size, size_t nSet_size) noexcept;
 
-bool NextCombination(BYTE* rgSubset, size_t nSubset_size, size_t nSet_size);
+bool NextCombination(BYTE* rgSubset, size_t nSubset_size, size_t nSet_size) noexcept;
 
 #endif

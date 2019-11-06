@@ -266,7 +266,7 @@ public:
   @retval LEVEL_T            on success containing a random generated level
   @retval LEVEL_INVALID      on error
 */
-    LEVEL_T  GetRandomLevel   (FACTOR_T nFactor) const noexcept;
+    LEVEL_T  GetRandomLevel   (FACTOR_T nFactor) const;
 
 /**
   @brief Returns the factor associated with a given level
@@ -287,7 +287,7 @@ public:
   @retval FACTOR_T           on success containing a random factor value
   @retval FACTOR_INVALID     on error
 */
-    FACTOR_T GetRandomFactor  (void) const noexcept;
+    FACTOR_T GetRandomFactor  (void) const;
 
 /**
   @brief Performs an in-place shuffling of factors
@@ -339,7 +339,7 @@ public:
 
   @retval FACTOR_T           containing the number of factors
 */
-    inline FACTOR_T get_NumFactors(void) const noexcept
+    constexpr FACTOR_T get_NumFactors(void) const noexcept
         { return m_nNumFactors; };
 };
 

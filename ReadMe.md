@@ -90,33 +90,32 @@ chosen for parameters f1, ..., fj.
  Reference(s)
 ===============================================================================
 
- * "Automated Combinatorial Testing for Software", National Institute for Standards and Technology,
-   http://csrc.nist.gov/groups/SNS/acts/coverage_measure.html
-
+ * ["Automated Combinatorial Testing for Software"](http://csrc.nist.gov/groups/SNS/acts/coverage_measure.html), 
+   National Institute for Standards and Technology
+  
  * RC Bryce and CJ Colbourn, "A density-based greedy algorithm for higher strength covering arrays", 
    Softw. Test. Verif. Reliab. 2009
 
- * DM Cohen, SR Dalal, ML Fredman, and GC Patton, "The AETG System: An Approach 
-   to Testing Based on Combinatorial Design", Appeared in IEEE Transactions On 
-   Software Engineering, volume 23, number 7, July 1997, pages 437-444, 
-   http://aetgweb.appcomsci.com/papers/1997-tse.html#heur
+ * DM Cohen, SR Dalal, ML Fredman, and GC Patton, ["The AETG System: An Approach 
+   to Testing Based on Combinatorial Design"](http://aetgweb.appcomsci.com/papers/1997-tse.html#heur), 
+   Appeared in IEEE Transactions On Software Engineering, volume 23, number 7, July 1997, pages 437-444, 
+   
 
  * Manchester, Bryce, Sampath, Samant, Kuhn, Kacker, "Applying higher strength 
    combinatorial criteria to test case prioritization: a case study", July 27, 2012
 
- * Grindal, Offutt, Andler, "Combination Testing Strategies: A Survey",
-   November 16th, 2004, http://csrc.nist.gov/acts/grindal-offutt-andler.pdf
+ * Grindal, Offutt, Andler, ["Combination Testing Strategies: A Survey"](http://csrc.nist.gov/acts/grindal-offutt-andler.pdf),
+   November 16th, 2004, 
 
- * George, "Constructing Covering Arrays", Universitat Politecnica De Valencia,
-   https://riunet.upv.es/bitstream/handle/10251/17027/tesisUPV3917.pdf?sequence=1
+ * George, ["Constructing Covering Arrays"](https://riunet.upv.es/bitstream/handle/10251/17027/tesisUPV3917.pdf?sequence=1),
+   Universitat Politecnica De Valencia,   
 
- * Lavavej, "rand() Considered Harmful", Microsoft Corp,
-   http://channel9.msdn.com/Events/GoingNative/2013/rand-Considered-Harmful
-
+ * Lavavej, ["rand() Considered Harmful"](http://channel9.msdn.com/Events/GoingNative/2013/rand-Considered-Harmful),
+   Microsoft Corp,
+   
  * Kuhn, Kacker, Yu, Lei, "Introduction to Combinatorial Testing", 2010
 
- * James Bach, Patrick Schroeder, "Pairwise Testing: A Best Practice That Isn't", 
-   http://www.satisfice.com
+ * James Bach, Patrick Schroeder, ["Pairwise Testing: A Best Practice That Isn't"](http://www.satisfice.com)
 
  * Ellims, Ince, Petre, "AETG vs. Man: an Assessment of the Effectiveness of 
    Combinatorial Test Data Generation", 2008, Technical Report 2007/08, ISSN
@@ -128,13 +127,11 @@ chosen for parameters f1, ..., fj.
  * Bryce, Colbourn, "Test Prioritization for Pairwise Interaction Coverage", A-MOST'05,
    May 15-21, 2005
 
- * Richard Kuhn, Raghu N. Kacker, Yu Lei. "Practical Combinatorical Testing", 
-   National Institute for Standards and Technology, NIST Special Publication 800-142, 
-   October 2010, http://csrc.nist.gov/groups/SNS/acts/documents/SP800-142-101006.pdf
+ * Richard Kuhn, Raghu N. Kacker, Yu Lei. ["Practical Combinatorical Testing"](http://csrc.nist.gov/groups/SNS/acts/documents/SP800-142-101006.pdf), National Institute for Standards and Technology, NIST Special Publication 800-142, 
+   October 2010, 
 
- * Richard Kuhn, Raghu Kacker, Yu Lei, "Measuring and Specifying Combinatorial Coverage 
-   of Test Input Configurations", National Institute for Standards and Technology, 
+ * Richard Kuhn, Raghu Kacker, Yu Lei, ["Measuring and Specifying Combinatorial Coverage 
+   of Test Input Configurations"](https://csrc.nist.gov/publications/detail/journal-article/2016/measuring--specifying-combinatorial-coverage-test-input-configs), National Institute for Standards and Technology, 
    Innovations in Systems and Software Engineering vol. 12, no. 4, December 2016, pp. 249-261, 
-   https://csrc.nist.gov/publications/detail/journal-article/2016/measuring--specifying-combinatorial-coverage-test-input-configs
-
+   
 

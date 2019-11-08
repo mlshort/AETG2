@@ -1,3 +1,5 @@
+# AETG2 Project
+
 Directory Structure
 ===================
 ```
@@ -15,7 +17,7 @@ Directory Structure
        |
        +-- Obj (compile time intermediaries objects)
  ```       
- AETG_Project_2 Overview
+ AETG2 Project Overview
 ========================================================================
 
 Assignment CSCE 5420 Software Engineering:

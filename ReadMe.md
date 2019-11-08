@@ -1,5 +1,3 @@
-Name:  AETG 2 Simulation
-
 Directory Structure
 ===================
 ```

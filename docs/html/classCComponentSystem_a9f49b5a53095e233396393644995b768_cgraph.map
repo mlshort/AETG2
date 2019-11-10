@@ -1,0 +1,4 @@
+<map id="CComponentSystem::GetFactor" name="CComponentSystem::GetFactor">
+<area shape="rect" id="node1" title="Returns the factor associated with a given level." alt="" coords="5,5,213,32"/>
+<area shape="rect" id="node2" href="$CommonDef_8h.html#a10a4b3779062b48159cdccb91304006e" title="Performs basic validation of a factor value." alt="" coords="261,5,360,32"/>
+</map>

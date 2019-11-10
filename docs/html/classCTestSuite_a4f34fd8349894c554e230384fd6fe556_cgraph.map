@@ -1,0 +1,6 @@
+<map id="CTestSuite::AddToT2TestSuite" name="CTestSuite::AddToT2TestSuite">
+<area shape="rect" id="node1" title="Adds a new 2&#45;way test case to the suite." alt="" coords="5,31,205,57"/>
+<area shape="rect" id="node2" href="$classCTestSuite.html#a7234d57a4316f51ece6d1ac9722b40f4" title="Generates a set of tuples from a given test case." alt="" coords="253,23,425,65"/>
+<area shape="rect" id="node3" href="$classCTestCase.html#ab95fd6c7dd31279fd33034e8f325f31b" title="Returns the length of the stored level sequence." alt="" coords="473,5,619,32"/>
+<area shape="rect" id="node4" href="$CommonDef_8h.html#a282caf5c487a0b0a03191159116badf4" title="Performs basic validation of a level value." alt="" coords="501,56,591,83"/>
+</map>

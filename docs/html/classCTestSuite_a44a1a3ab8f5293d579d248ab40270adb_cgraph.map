@@ -1,0 +1,5 @@
+<map id="CTestSuite::Init" name="CTestSuite::Init">
+<area shape="rect" id="node1" title="class initializer" alt="" coords="5,46,116,73"/>
+<area shape="rect" id="node2" href="$classCComponentSystem.html#abe3a18bbc35b0d07b4fe1d3d02d6f35a" title="Returns the number of factors currently configured in the system." alt="" coords="178,5,346,47"/>
+<area shape="rect" id="node3" href="$classCComponentSystem.html#af2a2bf09dcd903978b7d950aeab445e6" title="Returns the overall maximum inclusive level value assigned to any factor." alt="" coords="164,71,360,112"/>
+</map>

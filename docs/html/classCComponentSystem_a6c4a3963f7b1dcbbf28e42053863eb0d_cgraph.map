@@ -1,0 +1,4 @@
+<map id="CComponentSystem::CalcNumberOfTWayConfigurations" name="CComponentSystem::CalcNumberOfTWayConfigurations">
+<area shape="rect" id="node1" title="Returns the number of T&#45;way variable&#45;value configurations." alt="" coords="5,5,227,47"/>
+<area shape="rect" id="node2" href="$classCComponentSystem.html#a7f07514d8d4be131196c12215cc482c8" title="Returns the number of T&#45;way system variable combinations." alt="" coords="275,5,496,47"/>
+</map>

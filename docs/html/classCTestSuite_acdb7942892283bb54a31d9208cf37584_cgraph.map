@@ -1,0 +1,14 @@
+<map id="CTestSuite::GenerateT2TestCaseCandidate" name="CTestSuite::GenerateT2TestCaseCandidate">
+<area shape="rect" id="node1" title="Generates a 2&#45;way test case candidate." alt="" coords="5,195,192,236"/>
+<area shape="rect" id="node2" href="$classCTestSuite.html#a0bb763ed439c5aba65b7a3709e44728f" title="Calculates a coverage value for a given CTestCase object." alt="" coords="255,5,442,47"/>
+<area shape="rect" id="node5" href="$CommonDef_8h.html#a282caf5c487a0b0a03191159116badf4" title="Performs basic validation of a level value." alt="" coords="753,67,843,94"/>
+<area shape="rect" id="node6" href="$TestSuite_8cpp.html#a5a0a67e384f7e299fabf42d522c44561" title="Returns the index of the largest level of a sequence." alt="" coords="259,122,438,149"/>
+<area shape="rect" id="node7" href="$classCComponentSystem.html#a9f49b5a53095e233396393644995b768" title="Returns the factor associated with a given level." alt="" coords="245,173,453,199"/>
+<area shape="rect" id="node9" href="$classCComponentSystem.html#af839e87de20cc5607554dfd7887a2de1" title="Returns the maximum inclusive level value assigned to a particular factor." alt="" coords="251,224,447,265"/>
+<area shape="rect" id="node10" href="$classCComponentSystem.html#a8528d3c49af1aa8e54488864f6071451" title="Returns the minimum inclusive level value assigned to a particular factor." alt="" coords="253,289,445,331"/>
+<area shape="rect" id="node11" href="$classCComponentSystem.html#a279b26c8222216b63feb26619a4b3826" title="Performs an in&#45;place shuffling of factors." alt="" coords="240,355,457,396"/>
+<area shape="rect" id="node12" href="$classCTestCase.html#a7cbac19325d038d64258962791618377" title="class initializer" alt="" coords="293,421,404,447"/>
+<area shape="rect" id="node3" href="$classCTestSuite.html#a7234d57a4316f51ece6d1ac9722b40f4" title="Generates a set of tuples from a given test case." alt="" coords="505,5,677,47"/>
+<area shape="rect" id="node4" href="$classCTestCase.html#ab95fd6c7dd31279fd33034e8f325f31b" title="Returns the length of the stored level sequence." alt="" coords="725,13,871,39"/>
+<area shape="rect" id="node8" href="$CommonDef_8h.html#a10a4b3779062b48159cdccb91304006e" title="Performs basic validation of a factor value." alt="" coords="542,173,641,199"/>
+</map>

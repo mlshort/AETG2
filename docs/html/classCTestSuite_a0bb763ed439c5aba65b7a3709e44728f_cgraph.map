@@ -1,0 +1,6 @@
+<map id="CTestSuite::CalculateT2TestCaseCoverage" name="CTestSuite::CalculateT2TestCaseCoverage">
+<area shape="rect" id="node1" title="Calculates a coverage value for a given CTestCase object." alt="" coords="5,23,192,65"/>
+<area shape="rect" id="node2" href="$classCTestSuite.html#a7234d57a4316f51ece6d1ac9722b40f4" title="Generates a set of tuples from a given test case." alt="" coords="240,23,412,65"/>
+<area shape="rect" id="node3" href="$classCTestCase.html#ab95fd6c7dd31279fd33034e8f325f31b" title="Returns the length of the stored level sequence." alt="" coords="460,5,605,32"/>
+<area shape="rect" id="node4" href="$CommonDef_8h.html#a282caf5c487a0b0a03191159116badf4" title="Performs basic validation of a level value." alt="" coords="487,56,578,83"/>
+</map>

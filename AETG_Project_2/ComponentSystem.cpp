@@ -16,9 +16,6 @@
 std::random_device g_rd;       ///< used to generate a 32-bit seed
 std::mt19937       g_mt;       ///< the Mersenne Twister engine
 
-CComponentSystem::~CComponentSystem( )
-{
-}
 
 bool
 CComponentSystem::Init(FACTOR_T nNumFactors, LEVEL_T nNumLevels)

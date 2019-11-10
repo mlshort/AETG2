@@ -153,7 +153,7 @@ public:
 
   @retval Ty                 containing the minimum inclusive level
 */
-    inline Ty get_MinLevel(void) const noexcept
+    constexpr Ty get_MinLevel(void) const noexcept
     { return m_Levels.get_Min(); };
 
 /**
@@ -196,7 +196,7 @@ public:
     { };
 
     /// Destructor
-    ~CComponentSystem( );
+    ~CComponentSystem() = default;
 
 /**
   @brief  class initializer
@@ -241,8 +241,8 @@ public:
 
   @param [in] nFactor        target factor
 
-  @retval LEVEL_INVALID      on error
   @retval LEVEL_T            on success containing the factor's max level value
+  @retval LEVEL_INVALID      on error
 */
     LEVEL_T  GetMaxLevel      (FACTOR_T nFactor) const noexcept;
 

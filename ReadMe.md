@@ -17,6 +17,10 @@ Directory Structure
        |
        +-- Obj (compile time intermediaries objects)
  ```       
+
+[Doxygen Generated Project Documentation](https://mlshort.github.io/AETG2/)
+=========================================
+ 
  AETG2 Project Overview
 ========================================================================
 
